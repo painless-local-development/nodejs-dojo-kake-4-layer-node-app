@@ -23,7 +23,7 @@ app.get('/token', (req, res) => {
 app.get('/data', (req, res) => {
 
   if (req.query.token !=='12345') {
-    return res.status(401).send(`forbidden, invalid token: ${req.query.token}`)
+    return res.status(401).send('forbidden, invalid token')
   }
 
   request('http://localhost:7000/proxy', (error, response, body) => {
