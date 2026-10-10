@@ -18,7 +18,7 @@
   "homepage": "https://github.com/Pelirrojo/nodejs-dojo-kake-4-layer-node-app#readme",
   "dependencies": {
     "cors": "^2.8.1",
-    "express": "^4.15.0",
+    "express": "^5.2.1",
     "lodash": "^4.17.4",
     "request": "^2.80.0"
   }
